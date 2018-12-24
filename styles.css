@@ -132,8 +132,7 @@ button:focus {
 
 .info-card {
 	width: 100%;
-	height: 500px;
-	background-color: yellow;
+	min-height: 500px;
 
 	display: flex;
 	flex-direction: column;
@@ -143,6 +142,7 @@ button:focus {
 }
 
 .info-card-title {
+	margin-top: 18px;
 	margin-bottom: 18px;
 	color: white;
 	text-transform: uppercase;
@@ -152,6 +152,7 @@ button:focus {
 }
 
 .info-card-title-black {
+	margin-top: 18px;
 	margin-bottom: 18px;
 	color: black;
 	text-transform: uppercase;
@@ -176,6 +177,11 @@ button:focus {
     width: 50%;
 }
 
+#larj3 {
+    width: 30%;
+    margin-bottom: 18px;
+}
+
 .two {
 	background-color: rgb(150, 50, 180);
 }
@@ -184,13 +190,24 @@ button:focus {
 	background-color: rgba(255, 255, 0, 0.5);
 }
 
+.four {
+	background-color: red;
+}
+
 .footer {
+	width: 100%;
 	height: 60px;
 	background-color: rgba(0, 0, 255, 0.5);
 	color: white;
 
 	letter-spacing: 0.5px;
 	font-size: 14px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 
 .black {
@@ -229,7 +246,10 @@ button:focus {
 	.codepen {
 		margin-top: 5px;
 	}
-	#larj {
+	#larj, #larj2 {
 		width: 90%;
+	}
+	#larj3 {
+		width: 40%;
 	}
 }
