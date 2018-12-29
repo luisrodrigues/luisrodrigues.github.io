@@ -149,6 +149,7 @@ button:focus {
 	font-weight: normal;
 	font-size: 22px;
 	letter-spacing: 2px;
+	max-width: 350px;
 }
 
 .info-card-title-black {
@@ -159,6 +160,23 @@ button:focus {
 	font-weight: normal;
 	font-size: 22px;
 	letter-spacing: 2px;
+	max-width: 350px;
+}
+
+.info-card-subtitle {
+	margin-bottom: 18px;
+	color: white;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.info-card-subtitle-black {
+	margin-bottom: 18px;
+	color: black;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 1px;
 }
 
 .one {
@@ -178,7 +196,12 @@ button:focus {
 }
 
 #larj3 {
+	-webkit-box-shadow: 0px 15px 15px -5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 15px 15px -5px rgba(0,0,0,0.6);
+    box-shadow: 0px 15px 15px -5px rgba(0,0,0,0.6);
+
     width: 30%;
+    margin-bottom: 18px;
 }
 
 .two {
