@@ -89,6 +89,13 @@ h1 {
 	transform: scale(0.98);
 }
 
+#avatar {
+	width: 150px;
+	margin-bottom: 15px;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
 .social {
     margin-top: 10px;
 }
