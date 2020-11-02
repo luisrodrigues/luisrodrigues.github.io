@@ -110,6 +110,7 @@ h1 {
 
 @media only screen and (max-width: 500px) {
   .content {
-    margin-top: 5vh;
+    margin-top: 50%;
+    transform: translateY(-15%);
   }
 }
